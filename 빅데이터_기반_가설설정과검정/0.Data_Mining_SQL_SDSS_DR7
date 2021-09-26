@@ -1,0 +1,8 @@
+-- Find all galaxies brighter than r magnitude 17.77, 
+
+SELECT objID, ra, dec, z, modelmag_r-5*log10(4.28E+08*z) as abs_mag_r, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroMagErr_u, petroMagErr_g, petroMagErr_r, petroMagErr_i, petroMagErr_z, u_g, u_r, u_i, u_z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z
+
+FROM Galaxy
+WHERE
+modelMag_r-5*log10(4.28E+08*z) < -17.77
+and type=3
