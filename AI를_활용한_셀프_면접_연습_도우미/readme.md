@@ -32,7 +32,7 @@
 
 
 ## 참고 오픈소스
-- [GazeTracking][6], [Headpose-Detection][7]
+- [GazeTracking][7], [Headpose-Detection][8]
 - [이화여대 통번역 대학원의 통번역 전사 프로젝트][2], [naverspeech][6]
 - [Ko-GPT2][3], [fine tunning][4]
 - [JasoAI][5]
